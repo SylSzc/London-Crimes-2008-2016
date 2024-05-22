@@ -245,7 +245,7 @@ ORDER BY total_crimes DESC
 LIMIT 10; 
 
 
-ELECT 
+SELECT 
   major_category,
   COUNT(*) AS total_crimes
 FROM 
